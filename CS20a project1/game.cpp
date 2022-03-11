@@ -2,7 +2,7 @@
 //  game.cpp
 //  CS20a project1
 //
-//  Created by Alex Hernandez on 3/11/22.
+//  Created by testing on 3/11/22.
 //
 
 #include <stdio.h>
