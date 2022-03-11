@@ -29,6 +29,7 @@
 		90C36F7127DC07BF00133C55 /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
 		90C36F7227DC08BD00133C55 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
 		90C36F7427DC093500133C55 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		90C36F7527DC12D300133C55 /* world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +66,7 @@
 				90C36F7127DC07BF00133C55 /* game.h */,
 				90C36F7427DC093500133C55 /* globals.h */,
 				90C36F7227DC08BD00133C55 /* game.cpp */,
+				90C36F7527DC12D300133C55 /* world.h */,
 			);
 			path = "CS20a project1";
 			sourceTree = "<group>";
