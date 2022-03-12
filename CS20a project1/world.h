@@ -5,6 +5,7 @@
 //  Created by testing on 3/11/22.
 //
 
+#includes "globals.h"
 #ifndef world_h
 #define world_h
 class World;

@@ -5,6 +5,7 @@
 //  Created by testing on 3/11/22.
 //
 
+#include "world.h"
 #ifndef game_h
 #define game_h
 class Life;
