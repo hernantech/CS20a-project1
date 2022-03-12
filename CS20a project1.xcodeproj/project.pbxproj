@@ -31,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		90B25BD227DC268100CCC457 /* tub.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tub.cpp; sourceTree = "<group>"; };
-		90B25BD327DC268100CCC457 /* tub.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tub.hpp; sourceTree = "<group>"; };
 		90C36F6727DB0FAD00133C55 /* CS20a project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS20a project1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C36F6A27DB0FAD00133C55 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		90C36F7127DC07BF00133C55 /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
@@ -44,6 +43,9 @@
 		CE3C457827DC254600D63CE4 /* life.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = life.cpp; sourceTree = "<group>"; };
 		CE3C457927DC254600D63CE4 /* globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = globals.cpp; sourceTree = "<group>"; };
 		CE3C457A27DC254600D63CE4 /* world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = world.cpp; sourceTree = "<group>"; };
+		CE3C458227DC603E00D63CE4 /* rpent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rpent.h; sourceTree = SOURCE_ROOT; };
+		CE3C458327DC607900D63CE4 /* glider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = glider.h; sourceTree = SOURCE_ROOT; };
+		CE3C458427DC60F600D63CE4 /* tub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tub.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,9 @@
 		90C36F6927DB0FAD00133C55 /* CS20a project1 */ = {
 			isa = PBXGroup;
 			children = (
+				CE3C458427DC60F600D63CE4 /* tub.h */,
+				CE3C458327DC607900D63CE4 /* glider.h */,
+				CE3C458227DC603E00D63CE4 /* rpent.h */,
 				90C36F6A27DB0FAD00133C55 /* main.cpp */,
 				90C36F7627DC174900133C55 /* life.h */,
 				90C36F7127DC07BF00133C55 /* game.h */,
@@ -87,7 +92,6 @@
 				CE3C457827DC254600D63CE4 /* life.cpp */,
 				CE3C457527DC254600D63CE4 /* rpent.cpp */,
 				90B25BD227DC268100CCC457 /* tub.cpp */,
-				90B25BD327DC268100CCC457 /* tub.hpp */,
 				CE3C457A27DC254600D63CE4 /* world.cpp */,
 			);
 			path = "CS20a project1";

@@ -7,6 +7,8 @@
 
 #ifndef life_h
 #define life_h
+
+
 class Life {
 public:
 
