@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		90C36F6B27DB0FAD00133C55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C36F6A27DB0FAD00133C55 /* main.cpp */; };
-		90C36F7327DC08BD00133C55 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C36F7227DC08BD00133C55 /* game.cpp */; };
-		90C36F7827DC1F3700133C55 /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C36F7727DC1F3700133C55 /* world.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,11 +26,9 @@
 		90C36F6727DB0FAD00133C55 /* CS20a project1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS20a project1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C36F6A27DB0FAD00133C55 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		90C36F7127DC07BF00133C55 /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
-		90C36F7227DC08BD00133C55 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
 		90C36F7427DC093500133C55 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
 		90C36F7527DC12D300133C55 /* world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
 		90C36F7627DC174900133C55 /* life.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = life.h; sourceTree = "<group>"; };
-		90C36F7727DC1F3700133C55 /* world.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = world.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +65,7 @@
 				90C36F7627DC174900133C55 /* life.h */,
 				90C36F7127DC07BF00133C55 /* game.h */,
 				90C36F7427DC093500133C55 /* globals.h */,
-				90C36F7227DC08BD00133C55 /* game.cpp */,
 				90C36F7527DC12D300133C55 /* world.h */,
-				90C36F7727DC1F3700133C55 /* world.cpp */,
 			);
 			path = "CS20a project1";
 			sourceTree = "<group>";
@@ -134,8 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				90C36F6B27DB0FAD00133C55 /* main.cpp in Sources */,
-				90C36F7827DC1F3700133C55 /* world.cpp in Sources */,
-				90C36F7327DC08BD00133C55 /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
