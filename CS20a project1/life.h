@@ -8,6 +8,7 @@
 #ifndef life_h
 #define life_h
 
+#include "world.h"
 
 class Life {
 public:

@@ -10,6 +10,8 @@
 
 #include <stdio.h>
 
+#include "life.h"
+
 class Tub : public Life {
 public:
     // Constructor/destructor
