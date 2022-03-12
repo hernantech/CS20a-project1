@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		90C36F6B27DB0FAD00133C55 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90C36F6A27DB0FAD00133C55 /* main.cpp */; };
+		CE3C457B27DC254600D63CE4 /* rpent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE3C457527DC254600D63CE4 /* rpent.cpp */; };
+		CE3C457C27DC254600D63CE4 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE3C457627DC254600D63CE4 /* game.cpp */; };
+		CE3C457D27DC254600D63CE4 /* glider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE3C457727DC254600D63CE4 /* glider.cpp */; };
+		CE3C457E27DC254600D63CE4 /* life.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE3C457827DC254600D63CE4 /* life.cpp */; };
+		CE3C457F27DC254600D63CE4 /* globals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE3C457927DC254600D63CE4 /* globals.cpp */; };
+		CE3C458027DC254600D63CE4 /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE3C457A27DC254600D63CE4 /* world.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +35,12 @@
 		90C36F7427DC093500133C55 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
 		90C36F7527DC12D300133C55 /* world.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
 		90C36F7627DC174900133C55 /* life.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = life.h; sourceTree = "<group>"; };
+		CE3C457527DC254600D63CE4 /* rpent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rpent.cpp; sourceTree = "<group>"; };
+		CE3C457627DC254600D63CE4 /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		CE3C457727DC254600D63CE4 /* glider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glider.cpp; sourceTree = "<group>"; };
+		CE3C457827DC254600D63CE4 /* life.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = life.cpp; sourceTree = "<group>"; };
+		CE3C457927DC254600D63CE4 /* globals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = globals.cpp; sourceTree = "<group>"; };
+		CE3C457A27DC254600D63CE4 /* world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = world.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,12 @@
 				90C36F7127DC07BF00133C55 /* game.h */,
 				90C36F7427DC093500133C55 /* globals.h */,
 				90C36F7527DC12D300133C55 /* world.h */,
+				CE3C457627DC254600D63CE4 /* game.cpp */,
+				CE3C457727DC254600D63CE4 /* glider.cpp */,
+				CE3C457927DC254600D63CE4 /* globals.cpp */,
+				CE3C457827DC254600D63CE4 /* life.cpp */,
+				CE3C457527DC254600D63CE4 /* rpent.cpp */,
+				CE3C457A27DC254600D63CE4 /* world.cpp */,
 			);
 			path = "CS20a project1";
 			sourceTree = "<group>";
@@ -127,7 +145,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3C457F27DC254600D63CE4 /* globals.cpp in Sources */,
 				90C36F6B27DB0FAD00133C55 /* main.cpp in Sources */,
+				CE3C457B27DC254600D63CE4 /* rpent.cpp in Sources */,
+				CE3C457D27DC254600D63CE4 /* glider.cpp in Sources */,
+				CE3C457E27DC254600D63CE4 /* life.cpp in Sources */,
+				CE3C458027DC254600D63CE4 /* world.cpp in Sources */,
+				CE3C457C27DC254600D63CE4 /* game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JKD5H77T6F;
+				DEVELOPMENT_TEAM = S2UPUYF3KU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -259,7 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JKD5H77T6F;
+				DEVELOPMENT_TEAM = S2UPUYF3KU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
